@@ -19,27 +19,27 @@ This week focuses on backend development by integrating MongoDB for data persist
 
 📂 Project Structure
 
-/Bazeena-Clothing
-    /Clothing-Backend
-        /config
-            db.js
-        /controllers
-            authController.js
-            productsController.js
-        /middleware
-            authMiddleware.js
-        /models
-            User.js
-        /node_modules
-            ... (auto-generated dependencies)
-        .env
-        package.json
-        package-lock.json
-        server.js
+    /Bazeena-Clothing
+        /Clothing-Backend
+            /config
+                db.js
+            /controllers
+                authController.js
+                productsController.js
+            /middleware
+                authMiddleware.js
+            /models
+                User.js
+            /node_modules
+                ... (auto-generated dependencies)
+            .env
+            package.json
+            package-lock.json
+            server.js
 
-    /Clothing-Frontend
+        /Clothing-Frontend
 
-    README.md
+        README.md
 
 
 
@@ -87,3 +87,5 @@ This week focuses on backend development by integrating MongoDB for data persist
 ✅ Access denied without token / invalid token
     ![Access denied](test_images/error_invalid_token.jpg)
 
+✅ Sample data in MongoDB
+    ![Access](test_images/sample_data_mongodb.jpg)
